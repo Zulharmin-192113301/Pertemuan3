@@ -11,8 +11,8 @@ class App extends Component {
 
     return(
       <div className='isi'>
-          <h1 style={{textAlign:'center', color:'rgb(252, 150, 120)'}}> {judul} </h1>
-          <h2 className='subjudul'>  {vsubjudul} </h2>
+          <h1 style={{textAlign:'center', color:'rgb(252, 150, 120)'}}> Hai, {judul} </h1>
+          <h2 className='subjudul'>  {'Hello ' + vsubjudul} </h2>
           <p className='paragraf'> {this.tulisan} </p>
       </div>
     );
