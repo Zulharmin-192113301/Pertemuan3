@@ -7,7 +7,7 @@ class App extends Component {
 
     return(
       <div>
-          <h1>Hello World</h1>
+          <h1 style={{textAlign:'right', color:'rgb(252, 150, 120)'}}>Hello World</h1>
           <h2>Praktek App Web</h2>
       </div>
     );
