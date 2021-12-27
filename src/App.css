@@ -37,54 +37,19 @@
   }
 }
 
-
-.content{
-  width: 80%;
-  margin: auto; }
-
-.logo {
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width:80px;
-  height:80px;
+.isi {
+  width: 78%;
+  margin:auto;
 }
 
-.title{
+.subjudul {
   text-align: center;
-  color : rgb(197, 165, 197);
-  font-size: 18px; }
-
-.namaproduk{
-  text-align: center;
+  color:rgb(250, 39, 100);
   font-size: 16px;
-  font-weight: bold;
- }
+}
 
-
-  .column {
-    float: left;
-    width: 33.33%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .jersey {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 320px;
-    height:auto;
-  }
-
-  .hargaproduk {
-    text-align: center;
-    font-size: 14px;
-    font-weight: bold;
-    color:rgb(238, 43, 66);
-   }
+.paragraf {
+  padding: 30px;
+  color:green;
+  font-size: 12px;
+}
