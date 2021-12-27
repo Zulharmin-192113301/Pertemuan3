@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Gambar from './logo.svg'
 
 class App extends Component {
 
@@ -11,6 +12,7 @@ class App extends Component {
 
     return(
       <div className='isi'>
+          <img src={Gambar}/>
           <h1 style={{textAlign:'center', color:'rgb(252, 150, 120)'}}> Hai, {judul} </h1>
           <h2 className='subjudul'>  {'Hello ' + vsubjudul} </h2>
           <p className='paragraf'> {this.tulisan} </p>
